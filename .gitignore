@@ -1,0 +1,15 @@
+# Downloaded dependencies (reinstall with npm install)
+node_modules/
+
+# Python virtual environments
+.venv/
+
+# Large tools like flpdiff (115 MB, over GitHub's 100 MB limit)
+tools/
+
+# Exported audio
+*.mp3
+*.wav
+
+# Python cache
+__pycache__/
