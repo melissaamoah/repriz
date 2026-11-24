@@ -14,12 +14,12 @@ Each phase ends with something I can check off. Don't start a phase until the on
 - [x] Call flpdiff from Python and read its JSON output
 - [x] Pull out the fields the app needs (tempo, time spent, created date, plugins, samples)
 
-## Phase 2: Choose how the app is built
+## Phase 2: Choose how the app is built ✅
 
 **Goal:** Pick the tools for the app's window and interface, based on research instead of guessing.
 
 - [x] Research the options: PySide6, Electron, Tauri
-- [ ] Build a tiny "hello world" Electron app
+- [x] Build a tiny "hello world" Electron app (in `app/`, runs with `npm start`)
 - [x] Log the decision in the decisions log (Electron + TypeScript)
 
 ## Phase 3: Design v1
